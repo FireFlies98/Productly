@@ -10,11 +10,16 @@ a {
 }
 
 .header {
+    display: block;
+    max-width: 100%;
+}
+
+.conteiner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    max-width: 100%;
+    max-width: 99%;
     height: 78px;
     background: #FFFFFF;
 }
