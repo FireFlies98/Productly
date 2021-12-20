@@ -12,6 +12,7 @@ a {
 .header {
     display: block;
     max-width: 100%;
+    margin-bottom: 20px;
 }
 
 .conteiner {
@@ -75,7 +76,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-bottom: 111px;
     max-width: 80.3%;
     height: 495px;
     margin-left: 11%;
@@ -141,4 +142,67 @@ a {
     display: flex;
     margin-left: 3px;
     width: 604px;
+}
+
+.container_main_two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 543px;
+    max-width: 100%;
+}
+
+.container_main_two_logo {
+    display: flex;
+    width: 539px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 54px;
+}
+
+.conteiner_card {
+    width: 78.15%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.container_main_two_cards {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.container_main_two_img {
+    margin-bottom: 30px;
+}
+
+.card_logo {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    height: 33px;
+}
+
+.container_main_two_text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 34px;
+}
+
+.butt_sing_up_now {
+    width: 175px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
 }
