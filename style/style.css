@@ -71,12 +71,6 @@ a {
     max-width: 100%;
 }
 
-.wrapper {
-    display: flex;
-    max-width: 99%;
-    
-}
-
 .container_main_one {
     display: flex;
     justify-content: space-around;
