@@ -2,7 +2,13 @@
 
 body {
     font-family: 'Poppins';
+    /* display: inline-flex; */
 }
+
+/* .wrapper {
+    display: block;
+    margin: 20px 145px 30px;
+} */
 
 a {
     color: #2F281E;
@@ -154,6 +160,7 @@ h5 {
     color: #FF9900;
     margin-left: 30.5px;
 }
+
 .triangle {
     margin-right: 8.5px;
 }
@@ -161,7 +168,6 @@ h5 {
 .section_two_image {
     display: flex;
     margin-left: 3px;
-    width: 604px;
 }
 
 .container_main_two {
@@ -174,7 +180,7 @@ h5 {
 
 .container_main_two_logo {
     display: flex;
-    width: 539px;
+    justify-content: center;
     height: 108px;
     text-align: center;
     margin-bottom: 54px;
@@ -279,5 +285,62 @@ h5 {
     width: 79.3%;
     height: 574px;
     margin-left: 11%;
+    margin-bottom: 146px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79.3%;
+    height: 308px;
+    margin-left: 11%;
+    margin-bottom: 83px;
+    border-top: 1px solid #BCD0E57F;
+    padding-top: 105px;
+}
+
+.footer_logo {
+    height: 205px;
+}
+
+.footer_nav {
+    height: 205px;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.color {
+    color: #544837;
+}
+
+.last_form {
+    height: 199px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.last_input {
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+.sign_up_now {
+    width: 131px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
