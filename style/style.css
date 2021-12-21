@@ -9,6 +9,26 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
 .header {
     display: block;
     max-width: 100%;
@@ -156,10 +176,7 @@ a {
     display: flex;
     width: 539px;
     height: 108px;
-    font-weight: 700;
-    font-size: 36px;
     text-align: center;
-    line-height: 54px;
     margin-bottom: 54px;
 }
 
@@ -189,7 +206,7 @@ a {
 
 .container_main_two_text {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 26px;
     margin-bottom: 34px;
 }
@@ -205,4 +222,27 @@ a {
     background: #FF9900;
     color: #FFFFFF;
     border-radius: 4px;
+}
+
+.container_main_three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79.3%;
+    height: 574px;
+    margin-left: 11%;
+}
+
+.container_three_logo {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+
+.pharagraf_logo_text {
+    margin-bottom: 30px;
+}
+
+.many_text {
+    margin-top: 12px;
+    margin-bottom: 25px;
 }
