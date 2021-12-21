@@ -231,9 +231,10 @@ h5 {
     width: 79.3%;
     height: 574px;
     margin-left: 11%;
+    margin-bottom: 101px;
 }
 
-.container_three_logo {
+.container_logo {
     margin-top: 3px;
     margin-bottom: 22px;
 }
@@ -246,3 +247,37 @@ h5 {
     margin-top: 12px;
     margin-bottom: 25px;
 }
+
+.container_main_four {
+    display: flex;
+    align-items: center;
+    width: 80.3%;
+    margin-left: 11%;
+    height: 521px;
+    margin-bottom: 105px;
+}
+
+.main_four_image {
+    margin-right: 103px;
+}
+
+.main_four_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img_icon {
+    width: 35px;
+    margin-right: 30px;
+}
+
+.container_main_five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79.3%;
+    height: 574px;
+    margin-left: 11%;
+}
+
